@@ -1,4 +1,4 @@
-.grid-container{
+.grid-container1{
     display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto;
@@ -9,6 +9,31 @@
    padding-top: 4.25%;
    
 }
+
+.grid-container2{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 2%;
+  row-gap: 4%;
+   padding: 5%;
+   background-color: chocolate;
+   padding-top: 4.25%;
+   
+}
+
+.grid-container3{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  column-gap: 2%;
+  row-gap: 4%;
+   padding: 5%;
+   background-color: blueviolet;
+   padding-top: 4.25%;
+   
+}
+
 .grid-item1{
     
     background-color: rgb(230, 8, 0);
@@ -17,7 +42,7 @@
     font-size: 30px;
     text-align: center;
 
-}
+} 
 
 
 
@@ -175,6 +200,80 @@
     text-align: center;
     grid-column: 1 / span 3;
     grid-row: 1;
+}
+
+.grid-item19{
+    background-color: tan;
+   grid-column: 1 / span 2;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.grid-item20{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item21{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item22{
+    background-color: tan;
+   grid-row: 2 / span 3;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item23{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item24{
+    background-color: tan;
+   grid-row: 2 / span 3;
+   grid-column: 2 / span 3;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item25{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item26{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+.grid-item27{
+    background-color: tan;
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 
